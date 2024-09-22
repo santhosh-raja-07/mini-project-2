@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registation form</title>
+    <style>
+        .form{
+           text-align: center;
+        }
+        .container{
+            border: solid black 1px;
+            height: 400px;
+            width: 170px;
+            padding: 50px 100px 50px 100px;
+            line-height: 2rem;
+            margin-left: 550px;
+            margin-top: 150px;
+        }
+        .button{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body class="container">
+    <div class="form">
+    <form>
+        <h1>REGISTER NOW</h1>
+       <label for="email">Register name:</label>
+        <input type="email" placeholder="email" required>
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" minlength="6" maxlength="13" required>
+        <label for="password">Confirm password</label>
+        <input type="password" placeholder="confirm password" minlength="6" maxlength="13"required>
+       <label  for="age">Age</label>
+        <input type="number" placeholder="age" min="1" max="120">
+        <button type="submit" formaction="insta.html" class="button">SUBMIT</button>
+        <button type="reset" class="button">CLEAR</button>
+    </form>
+</div>
+</body>
+</html>
