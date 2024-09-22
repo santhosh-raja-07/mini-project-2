@@ -13,12 +13,11 @@
     text-align: center;
     padding: 100px 50px 100px 50px;
     background-color:  white;
-
 }
 .main-container{
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(94, 26, 154);
     flex-wrap: wrap;
 }
 a{
